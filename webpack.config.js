@@ -12,11 +12,10 @@ module.exports = [
       filename: 'entry.generator.js'
     },
     module: {
-	        loaders: [
-	            { test: /\.js/, loader: 'jsx-loader' }
-	        ]
-	    }
-
+      loaders: [
+        { test: /\.js/, loader: 'jsx-loader' }
+      ]
+    }
   },
   {
     name: 'server-side rending',
